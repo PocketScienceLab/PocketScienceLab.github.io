@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# OpenDreamKit: Open <br>Digital Research Environment Toolkit<br>for the Advancement of Mathematics
+# Pocket Science Laboratory: Moving Beyond the Classroom Walls
 
 {% include intro.md %}
 
