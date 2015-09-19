@@ -48,3 +48,4 @@ prose:
         field:
           element: hidden
           value: post
+          published: true
