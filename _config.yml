@@ -49,4 +49,5 @@ prose:
         field:
           element: "text"
           label: "title"
+          layout: post
           
