@@ -44,9 +44,8 @@ prose:
     - _data
   metadata:
     _posts:
-      - name: published
+      - name: "title"
         field:
-          label: published
-          element: hidden
-          value: true
+          element: "text"
+          label: "title"
           
