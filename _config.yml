@@ -3,10 +3,10 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:               OpenDreamKit
+title:               Pocketsciencelab
 tagline:             'Open Digital Research Environment Toolkit for the Advancement of Mathematics'
 description:         'A project funded by the <a href="https://ec.europa.eu/programmes/horizon2020/">Horizon 2020</a> <a href="https://ec.europa.eu/programmes/horizon2020/en/h2020-section/european-research-infrastructures-including-e-infrastructures">European Research Infrastructures</a> Work Programme'
-url:                 http://opendreamkit.org
+url:                 http://pocketsciencelab.eu
 baseurl:             ''
 paginate:            5
 paginate_path:       "/news/page:num/"
@@ -25,8 +25,8 @@ version:             0.2.0
 
 # Prose.io configuration
 prose:
-  editurl: "http://prose.io/#OpenDreamKit/OpenDreamKit.github.io/edit/master"
-  siteurl: "http://opendreamkit.org"
+  editurl: "http://prose.io/#Pocketsciencelab/pocketsciencelab.github.io/edit/master"
+  siteurl: "http://pocketsciencelab.eu"
   ignore:
     - .gitignore
     - _config.yml
