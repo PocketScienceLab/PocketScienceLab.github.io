@@ -27,6 +27,7 @@ version:             0.2.0
 prose:
   editurl: "http://prose.io/#PocketScienceLab/PocketScienceLab.github.io/edit/master"
   siteurl: "http://pocketsciencelab.eu"
+ prose:
   ignore:
     - .gitignore
     - _config.yml
@@ -42,13 +43,10 @@ prose:
     - _layouts
     - _includes
     - _data
- prose:
-  rooturl: "source"
-  site: "http://jake.ginnivan.net"
-   metadata:
+  metadata:
     _posts:
-      - name: "published"
+      - name: "title"
         field:
-          label: "Published"
-          element: "checkbox"
-          value: "true"
+          element: "text"
+          label: "title"
+          
