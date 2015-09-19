@@ -24,7 +24,5 @@ author:
 version:             0.2.0
 
 # Prose.io configuration
-prose:
-  editurl: "http://prose.io/#Pocketsciencelab/pocketsciencelab.github.io/edit/master"
-  siteurl: "http://pocketsciencelab.eu"
+
 
