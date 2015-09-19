@@ -42,10 +42,31 @@ prose:
     - _layouts
     - _includes
     - _data
+ prose:
+  rooturl: "source"
+  site: "http://jake.ginnivan.net"
+  media: "source/assets/posts"
   metadata:
-    _posts:
+    "source/_posts":
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
       - name: "title"
         field:
           element: "text"
-          label: "title"
-          
+          value: "Title"
+      - name: "comments"
+        field:
+          label: "Allow comments"
+          element: "checkbox"
+          value: true
+      - name: "categories"
+        field:
+          element: "text"
+          value: ""
+      - name: "published"
+        field:
+          label: "Published"
+          element: "checkbox"
+          value: true
