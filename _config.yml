@@ -24,14 +24,28 @@ author:
 version:             0.2.0
 
 # Prose.io configuration
+# Prose.io configuration
 prose:
-   prose:
-   editurl: "http://prose.io/#Pocketsciencelab/pocketsciencelab.github.io/edit/master"
-   siteurl: "http://pocketsciencelab.eu"
+  editurl: "http://prose.io/#PocketScienceLab/PocketScienceLab.github.io/edit/master"
+  siteurl: "http://pocketsciencelab.eu"
+  ignore:
+    - .gitignore
+    - _config.yml
+    - Gemfile
+    - CNAME
+    - LICENSE.md
+    - atom.xml
+    - index.md
+    - 404.html
+    - partners.html
+    - news
+    - public
+    - _layouts
+    - _includes
+    - _data
   metadata:
     _posts:
-     - name: layout
-      field:
-        element: hidden
-        value: post
-
+      - name: layout
+        field:
+          element: hidden
+          value: post
